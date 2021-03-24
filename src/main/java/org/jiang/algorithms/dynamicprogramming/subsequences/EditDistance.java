@@ -40,8 +40,71 @@ package org.jiang.algorithms.dynamicprogramming.subsequences;
  *
  */
 public class EditDistance {
-    public int minDistance(String word1, String word2) {
 
-        return 0;
+    char[] c1;
+    char[] c2;
+
+    //暴力求解
+    public int minDistance1(String word1, String word2) {
+        c1 = word1.toCharArray();
+        c2 = word2.toCharArray();
+        return dp1(c1.length - 1, c2.length - 1);
     }
+
+    public int dp1(int i, int j){
+        if(i == -1){
+            return j + 1;
+        }
+        if(j == -1){
+            return i + 1;
+        }
+        if(c1[i] == c2[j]){
+            return dp1(i - 1, j - 1);
+        }else{
+            //插入、删除、替换
+            return getMin(dp1(i, j - 1), dp1(i - 1, j), dp1(i - 1, j - 1)) + 1;
+        }
+    }
+
+    public int getMin(int a, int b, int c){
+        return Math.min(a, Math.min(b, c));
+    }
+
+    //自顶向下 memo数组
+    int[][] memo;
+    public int minDistance2(String word1, String word2) {
+        c1 = word1.toCharArray();
+        c2 = word2.toCharArray();
+        memo = new int[c1.length][c2.length];
+        for (int i = 1; i < c1.length + 1; i++) {
+            memo[i][0] = i + 1;
+        }
+        for (int j = 1; j < c2.length + 1; j++) {
+            memo[0][j] = j + 1;
+        }
+
+        return dp2(c1.length - 1, c2.length - 1);
+    }
+
+    public int dp2(int i, int j){
+        if(i == -1){
+            return j + 1;
+        }
+        if(j == -1){
+            return i + 1;
+        }
+        if(memo[i][j] > 0){
+            return memo[i][j];
+        }
+
+        if(c1[i] == c2[j]){
+            memo[i][j] = dp2(i - 1, j - 1);
+        }else{
+            memo[i][j] = getMin(dp2(i, j - 1), dp2(i - 1, j), dp2(i - 1, j - 1)) + 1;
+    }
+
+        return memo[i][j];
+    }
+
+
 }

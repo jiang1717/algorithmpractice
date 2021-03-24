@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="" />
+    <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/dynamicprogramming/subsequences/EditDistanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/dynamicprogramming/subsequences/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/dynamicprogramming/subsequences/EditDistance.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,9 +16,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:jiang1717/algorithmpractice.git" />
+      </set>
     </option>
   </component>
   <component name="JsFlowSettings">
@@ -39,6 +54,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -52,67 +68,68 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.jiang.algorithms.dynamicprogramming.subsequences" />
       <recent name="org.jiang.algorithms.dynamicprogramming" />
       <recent name="org.jiang.algorithms.classicsorting" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\main\java" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSuperEggDrop.testSuperEggDrop1">
-    <configuration name="TestCoinChange.testCoinChange1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EditDistanceTest.testMinDistance1">
+    <configuration name="EditDistanceTest.minDistance2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.dynamicprogramming.*" />
+          <option name="PATTERN" value="org.jiang.algorithms.dynamicprogramming.subsequences.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.dynamicprogramming" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.dynamicprogramming.TestCoinChange" />
-      <option name="METHOD_NAME" value="testCoinChange1" />
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.dynamicprogramming.subsequences" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.dynamicprogramming.subsequences.EditDistanceTest" />
+      <option name="METHOD_NAME" value="minDistance2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCoinChange.testCoinChange2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EditDistanceTest.testMinDistance1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.dynamicprogramming.*" />
+          <option name="PATTERN" value="org.jiang.algorithms.dynamicprogramming.subsequences.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.dynamicprogramming" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.dynamicprogramming.TestCoinChange" />
-      <option name="METHOD_NAME" value="testCoinChange2" />
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.dynamicprogramming.subsequences" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.dynamicprogramming.subsequences.EditDistanceTest" />
+      <option name="METHOD_NAME" value="testMinDistance1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCoinChange.testCoinChange3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EditDistanceTest.testMinDistance2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.dynamicprogramming.*" />
+          <option name="PATTERN" value="org.jiang.algorithms.dynamicprogramming.subsequences.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.dynamicprogramming" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.dynamicprogramming.TestCoinChange" />
-      <option name="METHOD_NAME" value="testCoinChange3" />
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.dynamicprogramming.subsequences" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.dynamicprogramming.subsequences.EditDistanceTest" />
+      <option name="METHOD_NAME" value="testMinDistance2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EditDistanceTest.testMinDistance1" />
+        <item itemvalue="JUnit.EditDistanceTest.testMinDistance2" />
+        <item itemvalue="JUnit.EditDistanceTest.minDistance2" />
         <item itemvalue="JUnit.TestSuperEggDrop.testSuperEggDrop1" />
         <item itemvalue="JUnit.TestSuperEggDrop.testSuperEggDrop" />
-        <item itemvalue="JUnit.TestCoinChange.testCoinChange2" />
-        <item itemvalue="JUnit.TestCoinChange.testCoinChange3" />
-        <item itemvalue="JUnit.TestCoinChange.testCoinChange1" />
       </list>
     </recent_temporary>
   </component>
@@ -171,11 +188,22 @@
       <option name="presentableId" value="Default" />
       <updated>1616423936371</updated>
       <workItem from="1616423939541" duration="23856000" />
+      <workItem from="1616551942427" duration="6394000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="-1508" y="751" key="#Project_Structure" timestamp="1616424027546">
@@ -190,26 +218,30 @@
       <screen x="-1920" y="630" width="1486" height="864" />
     </state>
     <state x="-1370" y="839" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.630.1486.864/0.0.1858.1080@-1920.630.1486.864" timestamp="1616424139854" />
+    <state x="92" y="92" width="1674" height="896" key="DiffContextDialog" timestamp="1616552100403">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="92" y="92" width="1674" height="896" key="DiffContextDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616552100403" />
     <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1616505838101">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616505838101" />
-    <state width="1815" height="328" key="GridCell.Tab.0.bottom" timestamp="1616551529612">
+    <state width="1815" height="283" key="GridCell.Tab.0.bottom" timestamp="1616555584825">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="328" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616551529612" />
-    <state width="1815" height="328" key="GridCell.Tab.0.center" timestamp="1616551529612">
+    <state width="1815" height="283" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616555584825" />
+    <state width="1815" height="283" key="GridCell.Tab.0.center" timestamp="1616555584824">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="328" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616551529612" />
-    <state width="1815" height="328" key="GridCell.Tab.0.left" timestamp="1616551529612">
+    <state width="1815" height="283" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616555584824" />
+    <state width="1815" height="283" key="GridCell.Tab.0.left" timestamp="1616555584824">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="328" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616551529612" />
-    <state width="1815" height="328" key="GridCell.Tab.0.right" timestamp="1616551529612">
+    <state width="1815" height="283" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616555584824" />
+    <state width="1815" height="283" key="GridCell.Tab.0.right" timestamp="1616555584824">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="328" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616551529612" />
+    <state width="1815" height="283" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616555584824" />
     <state width="1815" height="328" key="GridCell.Tab.1.bottom" timestamp="1616551529613">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -226,10 +258,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="328" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616551529613" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1616474908805">
+    <state x="409" y="114" key="SettingsEditor" timestamp="1616552570364">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616474908805" />
+    <state x="409" y="114" key="SettingsEditor/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616552570364" />
+    <state x="716" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1616551941955">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="716" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616551941955" />
+    <state x="721" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616551968088">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="721" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616551968088" />
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1616553475553">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616553475553" />
     <state x="659" y="304" key="extract.method.dialog" timestamp="1616467059887">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
