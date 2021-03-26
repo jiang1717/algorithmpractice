@@ -27,4 +27,13 @@ public class EditDistanceTest {
             System.out.println(steps);
         }
     }
+
+    @Test
+    public void testMinDistance3() {
+        int steps;
+        for (int i = 0; i < word1.length; i++) {
+            steps = ed.minDistance3(word1[i], word2[i]);
+            System.out.println(steps);
+        }
+    }
 }
