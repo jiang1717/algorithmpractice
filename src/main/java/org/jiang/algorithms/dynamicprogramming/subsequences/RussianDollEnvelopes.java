@@ -39,11 +39,16 @@ import java.util.Comparator;
 
 public class RussianDollEnvelopes {
 
-    //基础问题 最长递增子序列（LTS Longest Increasing Subsequence）
-    //给定一个无序的整数数组，找到其中最长上升子序列的长度
+    /**
+     * 基础问题 最长递增子序列（LTS Longest Increasing Subsequence）
+     * 给定一个无序的整数数组，找到其中最长上升子序列的长度
+     */
+
     int[] dp;
 
-    //复杂度：O(n^2)
+    /**
+     * 复杂度：O(n^2)
+     */
     public int lengthOfLIS(int[] nums){
         int len = nums.length;
         dp = new int[len];
