@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/dynamicprogramming/knapsackproblem/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/dynamicprogramming/knapsackproblem/PartitionEqualSubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/dynamicprogramming/knapsackproblem/KnapsackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/dynamicprogramming/knapsackproblem/PartitionEqualSubsetSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/dynamicprogramming/knapsackproblem/PartitionEqualSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/dynamicprogramming/knapsackproblem/PartitionEqualSubsetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/dynamicprogramming/knapsackproblem/PartitionEqualSubsetSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/dynamicprogramming/knapsackproblem/PartitionEqualSubsetSum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,21 +76,21 @@
       <recent name="org.jiang.algorithms.dynamicprogramming" />
       <recent name="org.jiang.algorithms.classicsorting" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\main\java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.KnapsackTest.testKnapsack">
+  <component name="RunManager" selected="JUnit.PartitionEqualSubsetSumTest.canPartition">
     <configuration name="DeleteOperationForTwoStringsTest.minDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
@@ -139,22 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubarrayTest.maxSubArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithmpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.dynamicprogramming.subsequences.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.dynamicprogramming.subsequences" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.dynamicprogramming.subsequences.MaximumSubarrayTest" />
-      <option name="METHOD_NAME" value="maxSubArrayTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinimumAsciiDeleteSumForTwoStringsTest.minimumDeleteSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
@@ -171,13 +155,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PartitionEqualSubsetSumTest.canPartition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithmpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.algorithms.dynamicprogramming.knapsackproblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.dynamicprogramming.knapsackproblem" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.dynamicprogramming.knapsackproblem.PartitionEqualSubsetSumTest" />
+      <option name="METHOD_NAME" value="canPartition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PartitionEqualSubsetSumTest.canPartition" />
         <item itemvalue="JUnit.KnapsackTest.testKnapsack" />
         <item itemvalue="JUnit.MinimumAsciiDeleteSumForTwoStringsTest.minimumDeleteSum" />
         <item itemvalue="JUnit.LongestCommonSubsequenceTest.longestCommonSubsequence" />
         <item itemvalue="JUnit.DeleteOperationForTwoStringsTest.minDistance" />
-        <item itemvalue="JUnit.MaximumSubarrayTest.maxSubArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,9 @@
       <workItem from="1616829424732" duration="18000" />
       <workItem from="1616831440418" duration="26000" />
       <workItem from="1616831509673" duration="20000" />
-      <workItem from="1617111531029" duration="18232000" />
+      <workItem from="1617111531029" duration="20222000" />
+      <workItem from="1617377878625" duration="30000" />
+      <workItem from="1617583764706" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="子序列问题，妹写完">
       <created>1616582685541</created>
@@ -257,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617164875678</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="背包问题">
+      <created>1617242707922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617242707922</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +290,8 @@
     <MESSAGE value="最长公共子序列" />
     <MESSAGE value="两个字符串的删除操作" />
     <MESSAGE value="两个字符串的最小ASCII删除和" />
-    <option name="LAST_COMMIT_MESSAGE" value="两个字符串的最小ASCII删除和" />
+    <MESSAGE value="背包问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="背包问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1508" y="751" key="#Project_Structure" timestamp="1616424027546">
@@ -300,62 +310,62 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617241620774" />
-    <state x="773" y="161" key="CommitChangelistDialog2" timestamp="1617164874798">
-      <screen x="0" y="0" width="1856" height="1080" />
+    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1617242707124">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="773" y="161" key="CommitChangelistDialog2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164874798" />
     <state x="-1538" y="673" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@-1920.630.1486.864" timestamp="1616675382985" />
-    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616728746184" />
+    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617242707124" />
     <state x="92" y="92" width="1674" height="896" key="DiffContextDialog" timestamp="1616552100403">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="92" y="92" width="1674" height="896" key="DiffContextDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616552100403" />
-    <state x="586" y="228" key="FileChooserDialogImpl" timestamp="1616829440427">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1617377907533">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="-1353" y="866" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@-1920.630.1486.864" timestamp="1616674686722" />
-    <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616764706825" />
+    <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617377907533" />
     <state x="586" y="228" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616829440427" />
-    <state width="1815" height="106" key="GridCell.Tab.0.bottom" timestamp="1617242667543">
+    <state width="1815" height="245" key="GridCell.Tab.0.bottom" timestamp="1617586129139">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.bottom/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="106" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617242667543" />
-    <state width="1815" height="106" key="GridCell.Tab.0.center" timestamp="1617242667543">
+    <state width="1815" height="245" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617586129139" />
+    <state width="1815" height="245" key="GridCell.Tab.0.center" timestamp="1617586129139">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.center/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="106" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617242667543" />
-    <state width="1815" height="106" key="GridCell.Tab.0.left" timestamp="1617242667542">
+    <state width="1815" height="245" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617586129139" />
+    <state width="1815" height="245" key="GridCell.Tab.0.left" timestamp="1617586129139">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.left/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834810" />
-    <state width="1815" height="106" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617242667542" />
-    <state width="1815" height="106" key="GridCell.Tab.0.right" timestamp="1617242667543">
+    <state width="1815" height="245" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617586129138" />
+    <state width="1815" height="245" key="GridCell.Tab.0.right" timestamp="1617586129139">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="106" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617242667543" />
-    <state width="1813" height="296" key="GridCell.Tab.1.bottom" timestamp="1617164123707">
-      <screen x="0" y="0" width="1856" height="1080" />
+    <state width="1815" height="245" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617586129139" />
+    <state width="1813" height="296" key="GridCell.Tab.1.bottom" timestamp="1617377463531">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.bottom/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123707" />
-    <state width="1815" height="328" key="GridCell.Tab.1.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616764656170" />
-    <state width="1813" height="296" key="GridCell.Tab.1.center" timestamp="1617164123706">
-      <screen x="0" y="0" width="1856" height="1080" />
+    <state width="1813" height="296" key="GridCell.Tab.1.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617377463531" />
+    <state width="1813" height="296" key="GridCell.Tab.1.center" timestamp="1617377463531">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.center/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="328" key="GridCell.Tab.1.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616764656170" />
-    <state width="1813" height="296" key="GridCell.Tab.1.left" timestamp="1617164123706">
-      <screen x="0" y="0" width="1856" height="1080" />
+    <state width="1813" height="296" key="GridCell.Tab.1.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617377463531" />
+    <state width="1813" height="296" key="GridCell.Tab.1.left" timestamp="1617377463531">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.left/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="328" key="GridCell.Tab.1.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616764656170" />
-    <state width="1813" height="296" key="GridCell.Tab.1.right" timestamp="1617164123706">
-      <screen x="0" y="0" width="1856" height="1080" />
+    <state width="1813" height="296" key="GridCell.Tab.1.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617377463531" />
+    <state width="1813" height="296" key="GridCell.Tab.1.right" timestamp="1617377463531">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="328" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616764656170" />
+    <state width="1813" height="296" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617377463531" />
     <state x="-1573" y="719" key="SettingsEditor" timestamp="1616673621026">
       <screen x="-1920" y="630" width="1486" height="864" />
     </state>
@@ -367,21 +377,21 @@
     <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164881764" />
     <state x="-1559" y="795" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@-1920.630.1486.864" timestamp="1616675392606" />
     <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616728758720" />
-    <state x="592" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1616831510030">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="716" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1617377894133">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="-1347" y="944" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@-1920.630.1486.864" timestamp="1616720106197" />
-    <state x="716" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616764697227" />
+    <state x="716" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617377894133" />
     <state x="592" y="303" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1616831510030" />
     <state x="721" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616551968088">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="721" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616551968088" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1617242218885">
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1617585804317">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="675" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617162987498" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617242218885" />
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617585804317" />
     <state x="659" y="304" key="extract.method.dialog" timestamp="1616467059887">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>

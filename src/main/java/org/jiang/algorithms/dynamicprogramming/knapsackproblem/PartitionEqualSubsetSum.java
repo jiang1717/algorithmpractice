@@ -29,32 +29,48 @@ package org.jiang.algorithms.dynamicprogramming.knapsackproblem;
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/partition-equal-subset-sum
  *
+ * 分析：给一个可装载重量为 sum / 2 的背包和 N 个物品，每个物品的重量为 nums[i]。
+ *      现在让你装物品，是否存在一种装法，能够恰好将背包装满？
+ *
  */
 
 
 public class PartitionEqualSubsetSum {
     public boolean canPartition(int[] nums) {
-
-        if(nums.length == 0 || nums == null){
+        if(nums == null || nums.length == 0){
             return false;
         }
-
         int sum = 0;
-        for (int num :
-                nums) {
+        for (int num : nums) {
             sum += num;
         }
-
-        int length;
         if(sum % 2 != 0){
             return false;
         }else{
-            length = sum / 2;
+            sum = sum / 2;
         }
 
-        int[][] dp = new int[nums.length + 1][nums.length + 1];
+        boolean[][] dp = new boolean[nums.length + 1][sum + 1];
 
+        for (int j = 0; j <= sum; j++) {
+            dp[0][j] = false;
+        }
+        for (int i = 0; i <= nums.length; i++) {
+            dp[i][0] = true;
+        }
 
-        return false;
+        for (int i = 1; i <= nums.length; i++) {
+            for (int j = 1; j <= sum; j++) {
+                if(dp[i-1][j]){
+                    dp[i][j] = true;
+                }else if(j-nums[i-1] >= 0 && dp[i-1][j-nums[i-1]]){
+                    dp[i][j] = true;
+                }else{
+                    dp[i][j] = false;
+                }
+            }
+        }
+        return dp[nums.length][sum];
+
     }
 }
