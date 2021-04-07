@@ -37,14 +37,12 @@ public class HouseRobber {
             return 0;
         }
         int pre0 = 0;
-        int pre1 = 0;
         int cur0 = 0, cur1 = 0;
-        for (int i = 0; i < nums.length; i++) {
-            cur0 = Math.max(pre0, pre1);
-            cur1 = pre0 + nums[i];
+        for (int num : nums) {
+            cur0 = Math.max(pre0, cur1);
+            cur1 = pre0 + num;
             pre0 = cur0;
-            pre1 = cur1;
         }
-        return cur0 > cur1 ? cur0 : cur1;
+        return Math.max(cur0, cur1);
     }
 }
