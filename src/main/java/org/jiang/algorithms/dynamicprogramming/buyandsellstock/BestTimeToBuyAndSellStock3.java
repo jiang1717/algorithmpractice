@@ -49,7 +49,7 @@ public class BestTimeToBuyAndSellStock3 {
             return 0;
         }
         int[][][] dp = new int[prices.length + 1][3][2];
-        for (int i = 0; i < prices.length; i++) {
+        for (int i = 0; i <= prices.length; i++) {
             dp[i][0][0] = 0;
             dp[i][0][1] = Integer.MIN_VALUE;
         }
