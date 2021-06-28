@@ -29,5 +29,23 @@ public class TestSortingMethod {
         printArray(result);
     }
 
+    @Test
+    public void testSelectionSort(){
+        int[] result = sm.selectionSort(arr);
+        printArray(result);
+    }
+
+    @Test
+    public void testBubbleSort(){
+        int[] result = sm.bubbleSort(arr);
+        printArray(result);
+    }
+
+    @Test
+    public void testQuickSort(){
+        int[] result = sm.quickSort(arr);
+        printArray(result);
+    }
+
 }
 
