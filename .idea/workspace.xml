@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/backtrackingalgorithm/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/backtrackingalgorithm/NQueens.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/classicsorting/TestSortingMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/classicsorting/TestSortingMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/algorithmpractice.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/classicsorting/SortingMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/classicsorting/SortingMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jiang/algorithms/classicsorting/TestSortingMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/jiang/algorithms/classicsorting/TestSortingMethod.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,37 +91,8 @@
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSortingMethod.testQuickSort">
-    <configuration name="JZ5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.nowcoder.JZ5" />
-      <module name="algorithmpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.nowcoder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PermutationsTest.permute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithmpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.backtrackingalgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.backtrackingalgorithm" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.backtrackingalgorithm.PermutationsTest" />
-      <option name="METHOD_NAME" value="permute" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSortingMethod.testBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestSortingMethod.testCountingSort">
+    <configuration name="TestSortingMethod.testBucketSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.jiang.algorithms.classicsorting" />
       <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.classicsorting.TestSortingMethod" />
-      <option name="METHOD_NAME" value="testBubbleSort" />
+      <option name="METHOD_NAME" value="testBucketSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSortingMethod.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSortingMethod.testCountingSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
@@ -152,13 +118,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.jiang.algorithms.classicsorting" />
       <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.classicsorting.TestSortingMethod" />
-      <option name="METHOD_NAME" value="testQuickSort" />
+      <option name="METHOD_NAME" value="testCountingSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSortingMethod.testSelectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSortingMethod.testHeapSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
@@ -168,7 +134,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.jiang.algorithms.classicsorting" />
       <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.classicsorting.TestSortingMethod" />
-      <option name="METHOD_NAME" value="testSelectionSort" />
+      <option name="METHOD_NAME" value="testHeapSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSortingMethod.testMergeSortt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithmpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.algorithms.classicsorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.classicsorting" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.classicsorting.TestSortingMethod" />
+      <option name="METHOD_NAME" value="testMergeSortt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSortingMethod.testRadixSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithmpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.algorithms.classicsorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.classicsorting" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.classicsorting.TestSortingMethod" />
+      <option name="METHOD_NAME" value="testRadixSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSortingMethod.testQuickSort" />
-        <item itemvalue="JUnit.TestSortingMethod.testBubbleSort" />
-        <item itemvalue="JUnit.TestSortingMethod.testSelectionSort" />
-        <item itemvalue="Application.JZ5" />
-        <item itemvalue="JUnit.PermutationsTest.permute" />
+        <item itemvalue="JUnit.TestSortingMethod.testCountingSort" />
+        <item itemvalue="JUnit.TestSortingMethod.testBucketSort" />
+        <item itemvalue="JUnit.TestSortingMethod.testRadixSort" />
+        <item itemvalue="JUnit.TestSortingMethod.testHeapSort" />
+        <item itemvalue="JUnit.TestSortingMethod.testMergeSortt" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +207,8 @@
       <workItem from="1617848454762" duration="14935000" />
       <workItem from="1622599030732" duration="2521000" />
       <workItem from="1622632367155" duration="14000" />
-      <workItem from="1624839273173" duration="7440000" />
+      <workItem from="1624839273173" duration="8107000" />
+      <workItem from="1624926005950" duration="9487000" />
     </task>
     <task id="LOCAL-00001" summary="子序列问题，妹写完">
       <created>1616582685541</created>
@@ -414,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617857750260</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="基础排序">
+      <created>1624853532707</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1624853532707</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="编辑距离问题，写完了！" />
     <MESSAGE value="最长递增子序列问题 &amp; 俄罗斯信封套娃" />
     <MESSAGE value="最大子数组和" />
     <MESSAGE value="最长公共子序列" />
@@ -456,7 +461,8 @@
     <MESSAGE value="打家劫舍" />
     <MESSAGE value="打家劫舍II" />
     <MESSAGE value="全排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="全排列" />
+    <MESSAGE value="基础排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="基础排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1508" y="751" key="#Project_Structure" timestamp="1616424027546">
@@ -483,13 +489,13 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617241620774" />
-    <state x="640" y="13" key="CommitChangelistDialog2" timestamp="1624853512906">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1624938240787">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="773" y="161" key="CommitChangelistDialog2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164874798" />
     <state x="-1538" y="673" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@-1920.630.1486.864" timestamp="1616675382985" />
-    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617857749529" />
-    <state x="640" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1624853512906" />
+    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1624938240787" />
+    <state x="640" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1624853531808" />
     <state x="92" y="92" width="1674" height="896" key="DiffContextDialog" timestamp="1616552100403">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -500,70 +506,71 @@
     <state x="-1353" y="866" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@-1920.630.1486.864" timestamp="1616674686722" />
     <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1622632379040" />
     <state x="586" y="228" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616829440427" />
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1624853512932">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1815" height="297" key="GridCell.Tab.0.bottom" timestamp="1624938240831">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.bottom/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="385" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1618039618018" />
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624853512932" />
-    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1624853512932">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1815" height="297" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1624938240831" />
+    <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624858035290" />
+    <state width="1815" height="297" key="GridCell.Tab.0.center" timestamp="1624938240831">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.center/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="385" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1618039618018" />
-    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624853512932" />
-    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1624853512932">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1815" height="297" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1624938240831" />
+    <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
+    <state width="1815" height="297" key="GridCell.Tab.0.left" timestamp="1624938240831">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.left/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834810" />
-    <state width="1815" height="385" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1618039618018" />
-    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624853512932" />
-    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1624853512932">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1815" height="297" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1624938240831" />
+    <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
+    <state width="1815" height="297" key="GridCell.Tab.0.right" timestamp="1624938240831">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="385" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1618039618018" />
-    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624853512932" />
-    <state width="1493" height="142" key="GridCell.Tab.1.bottom" timestamp="1624843930336">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1815" height="297" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1624938240831" />
+    <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
+    <state width="1815" height="226" key="GridCell.Tab.1.bottom" timestamp="1624938200525">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.bottom/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123707" />
-    <state width="1815" height="385" key="GridCell.Tab.1.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1618039618019" />
-    <state width="1493" height="142" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624843930336" />
-    <state width="1493" height="142" key="GridCell.Tab.1.center" timestamp="1624843930336">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1815" height="226" key="GridCell.Tab.1.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1624938200525" />
+    <state width="1493" height="142" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
+    <state width="1815" height="226" key="GridCell.Tab.1.center" timestamp="1624938200525">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.center/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="385" key="GridCell.Tab.1.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1618039618018" />
-    <state width="1493" height="142" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624843930336" />
-    <state width="1493" height="142" key="GridCell.Tab.1.left" timestamp="1624843930336">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1815" height="226" key="GridCell.Tab.1.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1624938200525" />
+    <state width="1493" height="142" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
+    <state width="1815" height="226" key="GridCell.Tab.1.left" timestamp="1624938200525">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.left/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="385" key="GridCell.Tab.1.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1618039618018" />
-    <state width="1493" height="142" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624843930336" />
-    <state width="1493" height="142" key="GridCell.Tab.1.right" timestamp="1624843930336">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1815" height="226" key="GridCell.Tab.1.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1624938200525" />
+    <state width="1493" height="142" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624858035290" />
+    <state width="1815" height="226" key="GridCell.Tab.1.right" timestamp="1624938200525">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="385" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1618039618018" />
-    <state width="1493" height="142" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624843930336" />
+    <state width="1815" height="226" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1624938200525" />
+    <state width="1493" height="142" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
     <state x="-1573" y="719" key="SettingsEditor" timestamp="1616673621026">
       <screen x="-1920" y="630" width="1486" height="864" />
     </state>
     <state x="-1573" y="719" key="SettingsEditor/-1920.630.1486.864/0.0.1858.1080@-1920.630.1486.864" timestamp="1616673621026" />
     <state x="409" y="114" key="SettingsEditor/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1616552570364" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1617857759425">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="373" y="159" key="Vcs.Push.Dialog.v2" timestamp="1624853554083">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164881764" />
     <state x="-1559" y="795" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@-1920.630.1486.864" timestamp="1616675392606" />
     <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617857759425" />
-    <state x="716" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1622632367492">
+    <state x="373" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1624853554083" />
+    <state x="716" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1624926007375">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="-1347" y="944" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@-1920.630.1486.864" timestamp="1616720106197" />
-    <state x="716" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1622632367492" />
+    <state x="716" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1624926007375" />
     <state x="592" y="303" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1616831510030" />
     <state x="721" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616551968088">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -601,6 +608,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/jiang/algorithms/dynamicprogramming/subsequences/LongestCommonSubsequence.java</url>
           <line>51</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/jiang/algorithms/classicsorting/TestSortingMethod.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

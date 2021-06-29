@@ -47,5 +47,37 @@ public class TestSortingMethod {
         printArray(result);
     }
 
+    @Test
+    public void testMergeSort(){
+        int[] result = sm.mergeSort(arr);
+        printArray(result);
+    }
+
+    @Test
+    public void testHeapSort(){
+        int[] result = sm.heapSort(arr);
+        printArray(result);
+    }
+
+    @Test
+    public void testRadixSort(){
+        int[] result = sm.radixSort(arr);
+        printArray(result);
+    }
+
+    @Test
+    public void testBucketSort(){
+        int[] result = sm.bucketSort(arr);
+        printArray(result);
+    }
+
+    @Test
+    public void testCountingSort(){
+        int[] result = sm.countingSort(arr);
+        printArray(result);
+        int[] result1 = sm.countingSort(new int[]{4,5,9,8,5,2,1,2,1,4,5,6,2,1,4});
+        printArray(result1);
+    }
+
 }
 
