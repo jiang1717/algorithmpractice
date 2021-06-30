@@ -12,7 +12,8 @@ public class SortingMethod {
      *             O(n^2)   O(n^2)  O(n)
      * 空间复杂度：O(1)
      * 是否稳定： 稳定
-     * 工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。
+     * 工作原理是通过构建有序序列，对于未排序数据，
+     * 在已排序序列中从后向前扫描，找到相应位置并插入。
      *
      */
     public int[] straightInsertionSort(int[] arr){
@@ -242,6 +243,7 @@ public class SortingMethod {
             if(child + 1 <= n && arr[child + 1] > arr[child]){
                 child++;
             }
+            //终止条件
             if(arr[child] <= arr[parent]){
                 break;
             }
@@ -351,7 +353,7 @@ public class SortingMethod {
 
         //将元素放入桶中
         for (int i = 0; i < arr.length; i++) {
-            int ratio = (arr[i] - min) / n;
+            int ratio = (arr[i] - min) / 5;
             bucketList.get(ratio).add(arr[i]);
         }
         //对桶内元素进行排序
@@ -412,6 +414,4 @@ public class SortingMethod {
         }
         return arr;
     }
-
-
 }
