@@ -1,5 +1,6 @@
 package org.jiang.algorithms.backtrackingalgorithm;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -32,18 +33,71 @@ import java.util.List;
  */
 
 public class NQueens {
-    List<List<String>> result = new LinkedList<>();
+    List<List<String>> res = new ArrayList<>();
 
     public List<List<String>> solveNQueens(int n) {
-        if(n <= 0){
-            return null;
+        res.clear();
+        List<String> board = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            StringBuilder s = new StringBuilder();
+            for (int j = 0; j < n; j++) {
+                s.append(".");
+            }
+            board.add(s.toString());
         }
-        List<String> list = new LinkedList<>();
-        backtrack(0, list);
-
-        return result;
+        backtrack(0, board);
+        return res;
     }
 
-    private void backtrack(int i, List<String> list) {
+    private void backtrack(int row, List<String> board) {
+        if(row == board.size()){
+            res.add(new ArrayList<>(board));
+            return;
+        }
+        int n = board.get(row).length();
+        for (int col = 0; col < n; col++) {
+            if(!valid(board, row, col)){
+                continue;
+            }
+            char[] c = board.get(row).toCharArray();
+            c[col] = 'Q';
+            board.set(row, String.valueOf(c));
+            backtrack(row+1, board);
+            c[col] = '.';
+            board.set(row, String.valueOf(c));
+        }
+        return;
+    }
+
+    private boolean valid(List<String> board, int row, int col){
+        int n = board.size();
+        for (int i = row - 1; i >= 0; i--) {
+            if(i < 0){
+                return true;
+            }
+            char[] c = board.get(i).toCharArray();
+            if(c[col] == 'Q'){
+                return false;
+            }
+        }
+        for(int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++){
+            if(i < 0 || j >= n){
+                return true;
+            }
+            char[] c = board.get(i).toCharArray();
+            if(c[j] == 'Q'){
+                return false;
+            }
+        }
+        for(int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--){
+            if(i < 0 || j < 0){
+                return true;
+            }
+            char[] c = board.get(i).toCharArray();
+            if(c[j] == 'Q'){
+                return false;
+            }
+        }
+        return true;
     }
 }
