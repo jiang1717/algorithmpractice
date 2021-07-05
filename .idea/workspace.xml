@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/backtrackingalgorithm/NQueensTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/backtrackingalgorithm/PartitionToKEqualSumSubsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/backtrackingalgorithm/PartitionToKEqualSumSubsetsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/backtrackingalgorithm/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/backtrackingalgorithm/NQueens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/array/binarysearch/SplitArrayLargestSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/array/binarysearch/SplitArrayLargestSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/backtrackingalgorithm/NQueens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/backtrackingalgorithm/NQueens.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NQueensTest.solveNQueens">
+  <component name="RunManager" selected="JUnit.PartitionToKEqualSumSubsetsTest.canPartitionKSubsets1">
     <configuration name="CapacityToShipPackagesWithinDDaysTest.testShipWithinDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
@@ -104,22 +102,6 @@
       <option name="PACKAGE_NAME" value="org.jiang.algorithms.array.binarysearch" />
       <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.binarysearch.CapacityToShipPackagesWithinDDaysTest" />
       <option name="METHOD_NAME" value="testShipWithinDays" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KokoEatingBananasTest.testMinEatingSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithmpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.array.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.array.binarysearch" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.binarysearch.KokoEatingBananasTest" />
-      <option name="METHOD_NAME" value="testMinEatingSpeed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,6 +123,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PartitionToKEqualSumSubsetsTest.canPartitionKSubsets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithmpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.algorithms.backtrackingalgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.backtrackingalgorithm" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.backtrackingalgorithm.PartitionToKEqualSumSubsetsTest" />
+      <option name="METHOD_NAME" value="canPartitionKSubsets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartitionToKEqualSumSubsetsTest.canPartitionKSubsets1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithmpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.algorithms.backtrackingalgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.backtrackingalgorithm" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.backtrackingalgorithm.PartitionToKEqualSumSubsetsTest" />
+      <option name="METHOD_NAME" value="canPartitionKSubsets1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SplitArrayLargestSumTest.testSplitArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
@@ -157,29 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSortingMethod.testCountingSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithmpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.classicsorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.classicsorting" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.classicsorting.TestSortingMethod" />
-      <option name="METHOD_NAME" value="testCountingSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PartitionToKEqualSumSubsetsTest.canPartitionKSubsets1" />
+        <item itemvalue="JUnit.PartitionToKEqualSumSubsetsTest.canPartitionKSubsets" />
         <item itemvalue="JUnit.NQueensTest.solveNQueens" />
         <item itemvalue="JUnit.SplitArrayLargestSumTest.testSplitArray" />
         <item itemvalue="JUnit.CapacityToShipPackagesWithinDDaysTest.testShipWithinDays" />
-        <item itemvalue="JUnit.KokoEatingBananasTest.testMinEatingSpeed" />
-        <item itemvalue="JUnit.TestSortingMethod.testCountingSort" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +214,7 @@
       <workItem from="1625118920139" duration="45000" />
       <workItem from="1625186347305" duration="4274000" />
       <workItem from="1625316808234" duration="273000" />
-      <workItem from="1625446686906" duration="7719000" />
+      <workItem from="1625446686906" duration="11624000" />
     </task>
     <task id="LOCAL-00001" summary="子序列问题，妹写完">
       <created>1616582685541</created>
@@ -456,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625190696125</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="N皇后">
+      <created>1625458778301</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1625458778301</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最长公共子序列" />
     <MESSAGE value="两个字符串的删除操作" />
     <MESSAGE value="两个字符串的最小ASCII删除和" />
     <MESSAGE value="背包问题" />
@@ -498,7 +502,8 @@
     <MESSAGE value="基础排序" />
     <MESSAGE value="基础排序练习" />
     <MESSAGE value="二分搜索" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分搜索" />
+    <MESSAGE value="N皇后" />
+    <option name="LAST_COMMIT_MESSAGE" value="N皇后" />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="198" key="#Inspections" timestamp="1625109336161">
@@ -517,11 +522,11 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625449516732" />
-    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1625190695317">
+    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1625458777430">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="773" y="161" key="CommitChangelistDialog2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164874798" />
-    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625190695317" />
+    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625458777430" />
     <state x="640" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1624853531808" />
     <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1625317081405">
       <screen x="0" y="0" width="1857" height="1080" />
@@ -529,29 +534,29 @@
     <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1857.1080@0.0.1857.1080" timestamp="1625317081405" />
     <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625118963222" />
     <state x="586" y="228" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616829440427" />
-    <state width="1815" height="212" key="GridCell.Tab.0.bottom" timestamp="1625458746413">
+    <state width="1815" height="242" key="GridCell.Tab.0.bottom" timestamp="1625462567422">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.bottom/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="212" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625458746413" />
+    <state width="1815" height="242" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625462567422" />
     <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624858035290" />
-    <state width="1815" height="212" key="GridCell.Tab.0.center" timestamp="1625458746413">
+    <state width="1815" height="242" key="GridCell.Tab.0.center" timestamp="1625462567421">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.center/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="212" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625458746413" />
+    <state width="1815" height="242" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625462567421" />
     <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="212" key="GridCell.Tab.0.left" timestamp="1625458746413">
+    <state width="1815" height="242" key="GridCell.Tab.0.left" timestamp="1625462567421">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.left/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834810" />
-    <state width="1815" height="212" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625458746413" />
+    <state width="1815" height="242" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625462567421" />
     <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="212" key="GridCell.Tab.0.right" timestamp="1625458746413">
+    <state width="1815" height="242" key="GridCell.Tab.0.right" timestamp="1625462567421">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="212" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625458746413" />
+    <state width="1815" height="242" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625462567421" />
     <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
     <state width="1815" height="220" key="GridCell.Tab.1.bottom" timestamp="1625453993982">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -577,22 +582,22 @@
     <state width="1813" height="296" key="GridCell.Tab.1.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
     <state width="1815" height="220" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625453993982" />
     <state width="1493" height="142" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1625190703062">
+    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1625458784493">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164881764" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625190703062" />
+    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625458784493" />
     <state x="373" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1624853554083" />
     <state x="716" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1625446689609">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="716" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625446689609" />
     <state x="592" y="303" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1616831510030" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625451813261">
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625460525316">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="675" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617162987498" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625451813261" />
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625460525316" />
     <state x="559" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1624853189698" />
     <state x="659" y="304" key="extract.method.dialog" timestamp="1625013881946">
       <screen x="0" y="0" width="1858" height="1080" />
