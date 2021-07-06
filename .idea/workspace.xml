@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/backtrackingalgorithm/Combinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/backtrackingalgorithm/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/backtrackingalgorithm/CombinationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/backtrackingalgorithm/SubsetsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/backtrackingalgorithm/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/backtrackingalgorithm/GenerateParenthesesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/backtrackingalgorithm/PartitionToKEqualSumSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/backtrackingalgorithm/PartitionToKEqualSumSubsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,7 @@
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CombinationsTest.combine">
+  <component name="RunManager" selected="JUnit.GenerateParenthesesTest.generateParenthesis">
     <configuration name="CombinationsTest.combine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
@@ -110,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueensTest.solveNQueens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenerateParenthesesTest.generateParenthesis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.jiang.algorithms.backtrackingalgorithm" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.backtrackingalgorithm.NQueensTest" />
-      <option name="METHOD_NAME" value="solveNQueens" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.backtrackingalgorithm.GenerateParenthesesTest" />
+      <option name="METHOD_NAME" value="generateParenthesis" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenerateParenthesesTest.generateParenthesis" />
         <item itemvalue="JUnit.CombinationsTest.combine" />
         <item itemvalue="JUnit.SubsetsTest.subsets" />
         <item itemvalue="JUnit.PartitionToKEqualSumSubsetsTest.canPartitionKSubsets1" />
         <item itemvalue="JUnit.PartitionToKEqualSumSubsetsTest.canPartitionKSubsets" />
-        <item itemvalue="JUnit.NQueensTest.solveNQueens" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +215,7 @@
       <workItem from="1625186347305" duration="4274000" />
       <workItem from="1625316808234" duration="273000" />
       <workItem from="1625446686906" duration="13018000" />
-      <workItem from="1625529897792" duration="3210000" />
+      <workItem from="1625529897792" duration="4887000" />
     </task>
     <task id="LOCAL-00001" summary="子序列问题，妹写完">
       <created>1616582685541</created>
@@ -472,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625462667861</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="排列、组合、子集问题">
+      <created>1625534313641</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1625534313641</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="两个字符串的最小ASCII删除和" />
     <MESSAGE value="背包问题" />
     <MESSAGE value="子集背包问题" />
     <MESSAGE value="零钱兑换 II" />
@@ -514,7 +517,8 @@
     <MESSAGE value="二分搜索" />
     <MESSAGE value="N皇后" />
     <MESSAGE value="划分为k个相等的子集" />
-    <option name="LAST_COMMIT_MESSAGE" value="划分为k个相等的子集" />
+    <MESSAGE value="排列、组合、子集问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="排列、组合、子集问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="198" key="#Inspections" timestamp="1625109336161">
@@ -533,40 +537,40 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625449516732" />
-    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1625462667188">
+    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1625534312930">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="773" y="161" key="CommitChangelistDialog2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164874798" />
-    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625462667188" />
+    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625534312930" />
     <state x="640" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1624853531808" />
     <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1625317081405">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
     <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1857.1080@0.0.1857.1080" timestamp="1625317081405" />
     <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625118963222" />
-    <state width="907" height="347" key="GridCell.Tab.0.bottom" timestamp="1625534243540">
+    <state width="907" height="347" key="GridCell.Tab.0.bottom" timestamp="1625536073230">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.bottom/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="907" height="347" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625534243540" />
+    <state width="907" height="347" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625536073230" />
     <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624858035290" />
-    <state width="907" height="347" key="GridCell.Tab.0.center" timestamp="1625534243540">
+    <state width="907" height="347" key="GridCell.Tab.0.center" timestamp="1625536073230">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.center/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="907" height="347" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625534243540" />
+    <state width="907" height="347" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625536073230" />
     <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="907" height="347" key="GridCell.Tab.0.left" timestamp="1625534243540">
+    <state width="907" height="347" key="GridCell.Tab.0.left" timestamp="1625536073230">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.left/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834810" />
-    <state width="907" height="347" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625534243540" />
+    <state width="907" height="347" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625536073230" />
     <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="907" height="347" key="GridCell.Tab.0.right" timestamp="1625534243540">
+    <state width="907" height="347" key="GridCell.Tab.0.right" timestamp="1625536073230">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="907" height="347" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625534243540" />
+    <state width="907" height="347" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625536073230" />
     <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
     <state width="1815" height="220" key="GridCell.Tab.1.bottom" timestamp="1625464004357">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -592,21 +596,21 @@
     <state width="1813" height="296" key="GridCell.Tab.1.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
     <state width="1815" height="220" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625464004357" />
     <state width="1493" height="142" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1625462674047">
+    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1625534319552">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164881764" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625462674047" />
+    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625534319552" />
     <state x="373" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1624853554083" />
     <state x="716" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1625529909092">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="716" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625529909092" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625534143650">
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625535812009">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="675" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617162987498" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625534143650" />
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625535812009" />
     <state x="559" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1624853189698" />
     <state x="659" y="304" key="extract.method.dialog" timestamp="1625013881946">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -638,6 +642,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/jiang/algorithms/dynamicprogramming/subsequences/LongestCommonSubsequence.java</url>
           <line>51</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/jiang/algorithms/backtrackingalgorithm/GenerateParenthesesTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
