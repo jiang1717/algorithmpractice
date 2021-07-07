@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/prefixsum/SubarraySumQqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/twopointer/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/twopointer/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/twopointer/RemoveDuplicatesFromSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/twopointer/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/prefixsum/CorporateFlightBookings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/linkedlist/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/prefixsum/SubarraySumQqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/prefixsum/SubarraySumQqualsK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +216,7 @@
       <workItem from="1625316808234" duration="273000" />
       <workItem from="1625446686906" duration="13018000" />
       <workItem from="1625529897792" duration="9514000" />
-      <workItem from="1625620347357" duration="6428000" />
+      <workItem from="1625620347357" duration="8850000" />
     </task>
     <task id="LOCAL-00001" summary="子序列问题，妹写完">
       <created>1616582685541</created>
@@ -502,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625623767880</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="数组双指针与前缀和">
+      <created>1625628831333</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1625628831333</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="目标和" />
     <MESSAGE value="一和零" />
     <MESSAGE value="无重叠区间" />
     <MESSAGE value="用最少数量的箭引爆气球" />
@@ -544,7 +546,8 @@
     <MESSAGE value="括号生成" />
     <MESSAGE value="反转链表" />
     <MESSAGE value="双指针技巧总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="双指针技巧总结" />
+    <MESSAGE value="数组双指针与前缀和" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组双指针与前缀和" />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="198" key="#Inspections" timestamp="1625109336161">
@@ -563,11 +566,11 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625449516732" />
-    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1625623767253">
+    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1625628830807">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="773" y="161" key="CommitChangelistDialog2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164874798" />
-    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625623767253" />
+    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625628830807" />
     <state x="640" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1624853531808" />
     <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1625317081405">
       <screen x="0" y="0" width="1857" height="1080" />
@@ -622,11 +625,11 @@
     <state width="1813" height="296" key="GridCell.Tab.1.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
     <state width="907" height="220" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625542334170" />
     <state width="1493" height="142" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1625623773495">
+    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1625628841567">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164881764" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625623773495" />
+    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625628841567" />
     <state x="373" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1624853554083" />
     <state x="716" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1625621331735">
       <screen x="0" y="0" width="1858" height="1080" />
