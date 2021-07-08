@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/nsum/FourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/nsum/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/nsum/FourSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/nsum/ThreeSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/InsertDeleteGetrandomO1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/RandomPickWithBlacklist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/InsertDeleteGetrandomO1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/array/InsertDeleteGetrandomO1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/jiang/algorithms/array/InsertDeleteGetrandomO1Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/linkedlist/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/linkedlist/ListNode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.jiang.algorithms.array" />
       <recent name="org.jiang.algorithms.array.nsum" />
       <recent name="org.jiang.algorithms.linkedlist" />
       <recent name="org.jiang.algorithms.backtrackingalgorithm" />
       <recent name="org.jiang.algorithms.array.binarysearch" />
-      <recent name="org.jiang.algorithms.classicsorting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
@@ -93,7 +93,20 @@
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FourSumTest.fourSum">
+  <component name="RunManager" selected="Application.InsertDeleteGetrandomO1Test">
+    <configuration name="InsertDeleteGetrandomO1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.InsertDeleteGetrandomO1Test" />
+      <module name="algorithmpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.algorithms.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FourSumTest.fourSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
@@ -105,22 +118,6 @@
       <option name="PACKAGE_NAME" value="org.jiang.algorithms.array.nsum" />
       <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.nsum.FourSumTest" />
       <option name="METHOD_NAME" value="fourSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenerateParenthesesTest.generateParenthesis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithmpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.backtrackingalgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.backtrackingalgorithm" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.backtrackingalgorithm.GenerateParenthesesTest" />
-      <option name="METHOD_NAME" value="generateParenthesis" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertDeleteGetrandomO1Test" />
         <item itemvalue="JUnit.FourSumTest.fourSum" />
         <item itemvalue="JUnit.ThreeSumTest.threeSum" />
         <item itemvalue="JUnit.ReverseLinkedListIITest.reverseBetween" />
         <item itemvalue="JUnit.ReverseLinkedListTest.reverseList" />
-        <item itemvalue="JUnit.GenerateParenthesesTest.generateParenthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +217,7 @@
       <workItem from="1625446686906" duration="13018000" />
       <workItem from="1625529897792" duration="9514000" />
       <workItem from="1625620347357" duration="9769000" />
-      <workItem from="1625703484891" duration="3178000" />
+      <workItem from="1625703484891" duration="8384000" />
     </task>
     <task id="LOCAL-00001" summary="子序列问题，妹写完">
       <created>1616582685541</created>
@@ -516,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625631215131</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Nsum">
+      <created>1625706788023</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1625706788023</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="无重叠区间" />
     <MESSAGE value="用最少数量的箭引爆气球" />
     <MESSAGE value="跳跃游戏" />
     <MESSAGE value="跳跃游戏II" />
@@ -558,7 +561,8 @@
     <MESSAGE value="双指针技巧总结" />
     <MESSAGE value="数组双指针与前缀和" />
     <MESSAGE value="前缀和与差分数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="前缀和与差分数组" />
+    <MESSAGE value="Nsum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nsum" />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="198" key="#Inspections" timestamp="1625109336161">
@@ -577,80 +581,84 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625449516732" />
-    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1625631214675">
+    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1625706787013">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="773" y="161" key="CommitChangelistDialog2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164874798" />
-    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625631214675" />
+    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706787013" />
     <state x="640" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1624853531808" />
+    <state width="447" height="466" key="DebuggerActiveHint" timestamp="1625710322385">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="447" height="466" key="DebuggerActiveHint/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710322385" />
     <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1625317081405">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
     <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1857.1080@0.0.1857.1080" timestamp="1625317081405" />
     <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625118963222" />
-    <state width="1815" height="357" key="GridCell.Tab.0.bottom" timestamp="1625706744828">
+    <state width="1815" height="220" key="GridCell.Tab.0.bottom" timestamp="1625710439208">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.bottom/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="357" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706744828" />
+    <state width="1815" height="220" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
     <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624858035290" />
-    <state width="1815" height="357" key="GridCell.Tab.0.center" timestamp="1625706744828">
+    <state width="1815" height="220" key="GridCell.Tab.0.center" timestamp="1625710439207">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.center/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="357" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706744828" />
+    <state width="1815" height="220" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439207" />
     <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="357" key="GridCell.Tab.0.left" timestamp="1625706744828">
+    <state width="1815" height="220" key="GridCell.Tab.0.left" timestamp="1625710439207">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.left/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834810" />
-    <state width="1815" height="357" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706744828" />
+    <state width="1815" height="220" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439207" />
     <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="357" key="GridCell.Tab.0.right" timestamp="1625706744828">
+    <state width="1815" height="220" key="GridCell.Tab.0.right" timestamp="1625710439208">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="260" key="GridCell.Tab.0.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="357" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706744828" />
+    <state width="1815" height="220" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
     <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="220" key="GridCell.Tab.1.bottom" timestamp="1625706385745">
+    <state width="1815" height="220" key="GridCell.Tab.1.bottom" timestamp="1625710439208">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.bottom/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123707" />
-    <state width="1815" height="220" key="GridCell.Tab.1.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706385745" />
+    <state width="1815" height="220" key="GridCell.Tab.1.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
     <state width="1493" height="142" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state width="1815" height="220" key="GridCell.Tab.1.center" timestamp="1625706385745">
+    <state width="1815" height="220" key="GridCell.Tab.1.center" timestamp="1625710439208">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.center/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="220" key="GridCell.Tab.1.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706385745" />
+    <state width="1815" height="220" key="GridCell.Tab.1.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
     <state width="1493" height="142" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state width="1815" height="220" key="GridCell.Tab.1.left" timestamp="1625706385745">
+    <state width="1815" height="220" key="GridCell.Tab.1.left" timestamp="1625710439208">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.left/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="220" key="GridCell.Tab.1.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706385745" />
+    <state width="1815" height="220" key="GridCell.Tab.1.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
     <state width="1493" height="142" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624858035290" />
-    <state width="1815" height="220" key="GridCell.Tab.1.right" timestamp="1625706385745">
+    <state width="1815" height="220" key="GridCell.Tab.1.right" timestamp="1625710439208">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1813" height="296" key="GridCell.Tab.1.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="220" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706385745" />
+    <state width="1815" height="220" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
     <state width="1493" height="142" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1625631220339">
+    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1625706795451">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164881764" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625631220339" />
+    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706795451" />
     <state x="373" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1624853554083" />
     <state x="716" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1625703493531">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="716" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625703493531" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625706592311">
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625708185687">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="675" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617162987498" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706592311" />
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625708185687" />
     <state x="559" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1624853189698" />
     <state x="659" y="304" key="extract.method.dialog" timestamp="1625013881946">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -666,10 +674,10 @@
     <state x="223" y="159" key="new project wizard/-1920.630.1486.864/0.0.1857.1080@0.0.1857.1080" timestamp="1625316916833" />
     <state x="223" y="159" key="new project wizard/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617894685978" />
     <state x="184" y="123" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1617789206028" />
-    <state x="585" y="250" key="run.anything.popup" timestamp="1625110383412">
+    <state x="585" y="250" key="run.anything.popup" timestamp="1625708717181">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="585" y="250" key="run.anything.popup/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625110383412" />
+    <state x="585" y="250" key="run.anything.popup/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625708717181" />
     <state x="585" y="193" width="672" height="676" key="search.everywhere.popup" timestamp="1625106471299">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -687,6 +695,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/nsum/ThreeSum.java</url>
           <line>68</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/InsertDeleteGetrandomO1Test.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
