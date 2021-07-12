@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/InsertDeleteGetrandomO1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/RandomPickWithBlacklist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/InsertDeleteGetrandomO1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/array/InsertDeleteGetrandomO1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/jiang/algorithms/array/InsertDeleteGetrandomO1Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/slidingwindow/FindAllAnagramsInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/array/slidingwindow/PermutationInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/slidingwindow/FindAllAnagramsInAStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/slidingwindow/LongestSubstringWithoutRepeatingCharactersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/slidingwindow/MinimumWindowSubstringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/slidingwindow/PermutationInStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -73,27 +76,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.jiang.algorithms.array.slidingwindow" />
       <recent name="org.jiang.algorithms.array" />
       <recent name="org.jiang.algorithms.array.nsum" />
       <recent name="org.jiang.algorithms.linkedlist" />
       <recent name="org.jiang.algorithms.backtrackingalgorithm" />
-      <recent name="org.jiang.algorithms.array.binarysearch" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\main\java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.InsertDeleteGetrandomO1Test">
+  <component name="RunManager" selected="JUnit.LongestSubstringWithoutRepeatingCharactersTest.lengthOfLongestSubstring">
     <configuration name="InsertDeleteGetrandomO1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.InsertDeleteGetrandomO1Test" />
       <module name="algorithmpractice" />
@@ -107,65 +110,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourSumTest.fourSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindAllAnagramsInAStringTest.findAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.array.nsum.*" />
+          <option name="PATTERN" value="org.jiang.algorithms.array.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.array.nsum" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.nsum.FourSumTest" />
-      <option name="METHOD_NAME" value="fourSum" />
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.array.slidingwindow" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.slidingwindow.FindAllAnagramsInAStringTest" />
+      <option name="METHOD_NAME" value="findAnagrams" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedListIITest.reverseBetween" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestSubstringWithoutRepeatingCharactersTest.lengthOfLongestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.linkedlist.*" />
+          <option name="PATTERN" value="org.jiang.algorithms.array.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.linkedlist.ReverseLinkedListIITest" />
-      <option name="METHOD_NAME" value="reverseBetween" />
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.array.slidingwindow" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.slidingwindow.LongestSubstringWithoutRepeatingCharactersTest" />
+      <option name="METHOD_NAME" value="lengthOfLongestSubstring" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedListTest.reverseList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumWindowSubstringTest.minWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.linkedlist.*" />
+          <option name="PATTERN" value="org.jiang.algorithms.array.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.linkedlist.ReverseLinkedListTest" />
-      <option name="METHOD_NAME" value="reverseList" />
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.array.slidingwindow" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.slidingwindow.MinimumWindowSubstringTest" />
+      <option name="METHOD_NAME" value="minWindow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumTest.threeSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermutationInStringTest.checkInclusion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.array.nsum.*" />
+          <option name="PATTERN" value="org.jiang.algorithms.array.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.array.nsum" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.nsum.ThreeSumTest" />
-      <option name="METHOD_NAME" value="threeSum" />
+      <option name="PACKAGE_NAME" value="org.jiang.algorithms.array.slidingwindow" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.array.slidingwindow.PermutationInStringTest" />
+      <option name="METHOD_NAME" value="checkInclusion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestSubstringWithoutRepeatingCharactersTest.lengthOfLongestSubstring" />
+        <item itemvalue="JUnit.FindAllAnagramsInAStringTest.findAnagrams" />
+        <item itemvalue="JUnit.PermutationInStringTest.checkInclusion" />
+        <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow" />
         <item itemvalue="Application.InsertDeleteGetrandomO1Test" />
-        <item itemvalue="JUnit.FourSumTest.fourSum" />
-        <item itemvalue="JUnit.ThreeSumTest.threeSum" />
-        <item itemvalue="JUnit.ReverseLinkedListIITest.reverseBetween" />
-        <item itemvalue="JUnit.ReverseLinkedListTest.reverseList" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +220,8 @@
       <workItem from="1625446686906" duration="13018000" />
       <workItem from="1625529897792" duration="9514000" />
       <workItem from="1625620347357" duration="9769000" />
-      <workItem from="1625703484891" duration="8384000" />
+      <workItem from="1625703484891" duration="8439000" />
+      <workItem from="1626056835919" duration="8967000" />
     </task>
     <task id="LOCAL-00001" summary="子序列问题，妹写完">
       <created>1616582685541</created>
@@ -520,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625706788023</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="O(1)复杂度实现增、删、随机查">
+      <created>1625714864915</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1625714864915</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="用最少数量的箭引爆气球" />
     <MESSAGE value="跳跃游戏" />
     <MESSAGE value="跳跃游戏II" />
     <MESSAGE value="真题练习" />
@@ -562,7 +572,8 @@
     <MESSAGE value="数组双指针与前缀和" />
     <MESSAGE value="前缀和与差分数组" />
     <MESSAGE value="Nsum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nsum" />
+    <MESSAGE value="O(1)复杂度实现增、删、随机查" />
+    <option name="LAST_COMMIT_MESSAGE" value="O(1)复杂度实现增、删、随机查" />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="198" key="#Inspections" timestamp="1625109336161">
@@ -581,11 +592,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625449516732" />
-    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1625706787013">
+    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1625714864335">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="773" y="161" key="CommitChangelistDialog2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164874798" />
-    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706787013" />
+    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625714864335" />
     <state x="640" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1624853531808" />
     <state width="447" height="466" key="DebuggerActiveHint" timestamp="1625710322385">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -596,69 +606,60 @@
     </state>
     <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1857.1080@0.0.1857.1080" timestamp="1625317081405" />
     <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625118963222" />
-    <state width="1815" height="220" key="GridCell.Tab.0.bottom" timestamp="1625710439208">
+    <state width="1815" height="233" key="GridCell.Tab.0.bottom" timestamp="1626072272574">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1813" height="260" key="GridCell.Tab.0.bottom/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="220" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
+    <state width="1815" height="233" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626072272574" />
     <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624858035290" />
-    <state width="1815" height="220" key="GridCell.Tab.0.center" timestamp="1625710439207">
+    <state width="1815" height="233" key="GridCell.Tab.0.center" timestamp="1626072272573">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1813" height="260" key="GridCell.Tab.0.center/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="220" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439207" />
+    <state width="1815" height="233" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626072272573" />
     <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="220" key="GridCell.Tab.0.left" timestamp="1625710439207">
+    <state width="1815" height="233" key="GridCell.Tab.0.left" timestamp="1626072272573">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1813" height="260" key="GridCell.Tab.0.left/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834810" />
-    <state width="1815" height="220" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439207" />
+    <state width="1815" height="233" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626072272573" />
     <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="220" key="GridCell.Tab.0.right" timestamp="1625710439208">
+    <state width="1815" height="233" key="GridCell.Tab.0.right" timestamp="1626072272573">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1813" height="260" key="GridCell.Tab.0.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164834811" />
-    <state width="1815" height="220" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
+    <state width="1815" height="233" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626072272573" />
     <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="220" key="GridCell.Tab.1.bottom" timestamp="1625710439208">
+    <state width="1815" height="291" key="GridCell.Tab.1.bottom" timestamp="1626072245777">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1813" height="296" key="GridCell.Tab.1.bottom/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123707" />
-    <state width="1815" height="220" key="GridCell.Tab.1.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
+    <state width="1815" height="291" key="GridCell.Tab.1.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626072245777" />
     <state width="1493" height="142" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state width="1815" height="220" key="GridCell.Tab.1.center" timestamp="1625710439208">
+    <state width="1815" height="291" key="GridCell.Tab.1.center" timestamp="1626072245777">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1813" height="296" key="GridCell.Tab.1.center/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="220" key="GridCell.Tab.1.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
+    <state width="1815" height="291" key="GridCell.Tab.1.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626072245777" />
     <state width="1493" height="142" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state width="1815" height="220" key="GridCell.Tab.1.left" timestamp="1625710439208">
+    <state width="1815" height="291" key="GridCell.Tab.1.left" timestamp="1626072245777">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1813" height="296" key="GridCell.Tab.1.left/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="220" key="GridCell.Tab.1.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
+    <state width="1815" height="291" key="GridCell.Tab.1.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626072245777" />
     <state width="1493" height="142" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624858035290" />
-    <state width="1815" height="220" key="GridCell.Tab.1.right" timestamp="1625710439208">
+    <state width="1815" height="291" key="GridCell.Tab.1.right" timestamp="1626072245777">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1813" height="296" key="GridCell.Tab.1.right/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164123706" />
-    <state width="1815" height="220" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710439208" />
+    <state width="1815" height="291" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626072245777" />
     <state width="1493" height="142" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1625706795451">
+    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1625714870476">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617164881764" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625706795451" />
+    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625714870476" />
     <state x="373" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1624853554083" />
-    <state x="716" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1625703493531">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="714" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1626056836001">
+      <screen x="0" y="0" width="1854" height="1080" />
     </state>
+    <state x="714" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1483.864/0.0.1854.1080@0.0.1854.1080" timestamp="1626056836001" />
     <state x="716" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625703493531" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625708185687">
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1626072109468">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="675" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1485.864/0.0.1856.1080@0.0.1856.1080" timestamp="1617162987498" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625708185687" />
+    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626072109468" />
     <state x="559" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1624853189698" />
     <state x="659" y="304" key="extract.method.dialog" timestamp="1625013881946">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -674,10 +675,10 @@
     <state x="223" y="159" key="new project wizard/-1920.630.1486.864/0.0.1857.1080@0.0.1857.1080" timestamp="1625316916833" />
     <state x="223" y="159" key="new project wizard/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1617894685978" />
     <state x="184" y="123" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1617789206028" />
-    <state x="585" y="250" key="run.anything.popup" timestamp="1625708717181">
+    <state x="585" y="250" key="run.anything.popup" timestamp="1626071229592">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="585" y="250" key="run.anything.popup/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625708717181" />
+    <state x="585" y="250" key="run.anything.popup/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626071229592" />
     <state x="585" y="193" width="672" height="676" key="search.everywhere.popup" timestamp="1625106471299">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
