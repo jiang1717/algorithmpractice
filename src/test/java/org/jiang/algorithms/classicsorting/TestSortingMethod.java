@@ -10,6 +10,7 @@ public class TestSortingMethod {
     public int[] arr = new int[]{45, 98, 546, 213, 4844, 0, 396};
     public SortingMethod sm = new SortingMethod();
     public SortingMethodPractice sm1 = new SortingMethodPractice();
+    public SortingMethodPracticeAgain smpa = new SortingMethodPracticeAgain();
 
     public void printArray(int[] arr){
         for (int num : arr) {
@@ -26,51 +27,51 @@ public class TestSortingMethod {
 
     @Test
     public void testShellSort(){
-        int[] result = sm1.shellSort(arr);
+        int[] result = smpa.shellSort(arr);
         printArray(result);
     }
 
     @Test
     public void testSelectionSort(){
-        int[] result = sm1.selectionSort(arr);
+        int[] result = smpa.selectionSort(arr);
         printArray(result);
     }
 
     @Test
     public void testBubbleSort(){
-        int[] result = sm1.bubbleSort(arr);
+        int[] result = smpa.bubbleSort(arr);
         printArray(result);
     }
 
     @Test
     public void testQuickSort(){
-        int[] result = sm1.quickSort(arr);
+        int[] result = smpa.quickSort(arr);
         printArray(result);
     }
 
     @Test
     public void testMergeSort(){
-        int[] result = sm1.mergeSort(arr);
+        int[] result = smpa.mergeSort(arr);
         printArray(result);
     }
 
     @Test
     public void testHeapSort(){
-        int[] result = sm1.heapSort(arr);
+        int[] result = smpa.heapSort(arr);
         printArray(result);
     }
 
     @Test
     public void testRadixSort(){
-        int[] result = sm1.radixSort(arr);
+        int[] result = smpa.radixSort(arr);
         printArray(result);
     }
 
     @Test
     public void testBucketSort(){
-        int[] result = sm1.bucketSort(arr);
+        int[] result = smpa.bucketSort(arr);
         printArray(result);
-        int[] result1 = sm1.bucketSort(new int[]{1,2,3,4,5,6,7,8,9});
+        int[] result1 = smpa.bucketSort(new int[]{1,2,3,4,5,6,7,8,9});
         printArray(result1);
     }
 
