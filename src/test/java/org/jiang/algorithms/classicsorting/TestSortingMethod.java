@@ -3,6 +3,9 @@ package org.jiang.algorithms.classicsorting;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static org.junit.Assert.*;
 
 public class TestSortingMethod {
@@ -81,6 +84,12 @@ public class TestSortingMethod {
         printArray(result);
         int[] result1 = sm1.countingSort(new int[]{4,5,9,8,5,2,1,2,1,4,5,6,2,1,4});
         printArray(result1);
+    }
+
+    @Test
+    public void testHash(){
+        Map<Integer,Integer> hash = new HashMap<>();
+        hash.hashCode();
     }
 
 }

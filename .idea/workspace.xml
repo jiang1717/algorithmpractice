@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethodPracticeAgain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/datastructure/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/nowcoder/NC15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/nowcoder/NC45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/nowcoder/NC52.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/nowcoder/NC76.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/nowcoder/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/jiang/nowcoder/NC52Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/graph/AllPathsFromSourceToTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/graph/CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/graph/CourseScheduleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/writtenexamination/HJ1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethodPracticeAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethodPracticeAgain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/writtenexamination/HuaWei0306_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/writtenexamination/HuaWei0306_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/writtenexamination/HuaWei0331_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/writtenexamination/HuaWei0331_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/writtenexamination/HuaWei0331_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/writtenexamination/HuaWei0331_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/classicsorting/TestSortingMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/classicsorting/TestSortingMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/jiang/nowcoder/NC52Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/jiang/nowcoder/NC52Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/classicsorting/SortingMethodPracticeAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/classicsorting/SortingMethodPracticeAgain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/writtenexamination/HuaWei0306_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/writtenexamination/HuaWei0331_1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/writtenexamination/HuaWei0331_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/writtenexamination/HuaWei0331_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/writtenexamination/queue.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/jiang/algorithms/classicsorting/TestSortingMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/jiang/algorithms/classicsorting/TestSortingMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jiang/nowcoder/NC52Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/jiang/nowcoder/NC52Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +36,7 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -71,7 +80,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../qiafan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -88,32 +97,59 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.jiang" />
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jiang.nowcoder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\main\java" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.jiang.nowcoder" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\test\java" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSortingMethod.testHeapSort">
-    <configuration name="TestSortingMethod.testBucketSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestSortingMethod.testQuickSort">
+    <configuration name="AllPathsFromSourceToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.graph.AllPathsFromSourceToTarget" />
       <module name="algorithmpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.classicsorting.*" />
+          <option name="PATTERN" value="org.jiang.algorithms.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.classicsorting" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.classicsorting.TestSortingMethod" />
-      <option name="METHOD_NAME" value="testBucketSort" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseScheduleII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.graph.CourseScheduleII" />
+      <module name="algorithmpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.algorithms.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NC52Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithmpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.nowcoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jiang.nowcoder" />
+      <option name="MAIN_CLASS_NAME" value="org.jiang.nowcoder.NC52Test" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,22 +171,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSortingMethod.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithmpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.classicsorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.classicsorting" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.classicsorting.TestSortingMethod" />
-      <option name="METHOD_NAME" value="testMergeSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSortingMethod.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
@@ -167,29 +187,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSortingMethod.testRadixSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithmpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.classicsorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.classicsorting" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.classicsorting.TestSortingMethod" />
-      <option name="METHOD_NAME" value="testRadixSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSortingMethod.testHeapSort" />
-        <item itemvalue="JUnit.TestSortingMethod.testMergeSort" />
         <item itemvalue="JUnit.TestSortingMethod.testQuickSort" />
-        <item itemvalue="JUnit.TestSortingMethod.testBucketSort" />
-        <item itemvalue="JUnit.TestSortingMethod.testRadixSort" />
+        <item itemvalue="Application.CourseScheduleII" />
+        <item itemvalue="Application.AllPathsFromSourceToTarget" />
+        <item itemvalue="JUnit.NC52Test.test" />
+        <item itemvalue="JUnit.TestSortingMethod.testHeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +242,26 @@
       <workItem from="1626531439284" duration="1068000" />
       <workItem from="1626661614396" duration="5321000" />
       <workItem from="1626740734817" duration="11445000" />
-      <workItem from="1626832645402" duration="1545000" />
+      <workItem from="1626832645402" duration="6448000" />
+      <workItem from="1626881151722" duration="2034000" />
+      <workItem from="1627084828208" duration="1240000" />
+      <workItem from="1627349710016" duration="2522000" />
+      <workItem from="1627435317298" duration="3956000" />
+      <workItem from="1627465104896" duration="78000" />
+      <workItem from="1628764571345" duration="1957000" />
+      <workItem from="1628954918505" duration="1865000" />
+      <workItem from="1629069205542" duration="2886000" />
+      <workItem from="1629251385859" duration="1105000" />
+      <workItem from="1629799075418" duration="30000" />
+      <workItem from="1629879535502" duration="1196000" />
+      <workItem from="1630203653665" duration="8176000" />
+      <workItem from="1630287462354" duration="1878000" />
+      <workItem from="1631027133365" duration="6381000" />
+      <workItem from="1631508337272" duration="1826000" />
+      <workItem from="1631532149542" duration="3093000" />
+      <workItem from="1631770812799" duration="1212000" />
+      <workItem from="1631945819053" duration="1207000" />
+      <workItem from="1632468330931" duration="2656000" />
     </task>
     <task id="LOCAL-00001" summary="子序列问题，妹写完">
       <created>1616582685541</created>
@@ -562,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626089744619</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="练习">
+      <created>1626831645998</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1626831645999</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="真题练习" />
     <MESSAGE value="买卖股票的最佳时机" />
     <MESSAGE value="买卖股票的最佳时机II" />
     <MESSAGE value="买卖股票的最佳时机III" />
@@ -604,121 +633,45 @@
     <MESSAGE value="O(1)复杂度实现增、删、随机查" />
     <MESSAGE value="滑动窗口算法" />
     <MESSAGE value="二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树" />
+    <MESSAGE value="练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="521" y="198" key="#Inspections" timestamp="1625109336161">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="586" y="228" key="FileChooserDialogImpl" timestamp="1632621956203">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="521" y="198" key="#Inspections/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625109336161" />
-    <state x="734" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1626080979797">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="1451" y="-763" key="FileChooserDialogImpl/0.0.1536.834/718.-1050.1920.1050@718.-1050.1920.1050" timestamp="1631078083578" />
+    <state x="586" y="228" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1632621956203" />
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1631097856193">
+      <screen x="718" y="-1050" width="1920" height="1050" />
     </state>
-    <state x="734" y="256" key="#com.intellij.ide.util.MemberChooser/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626080979797" />
-    <state x="659" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1625449516732">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="1493" height="175" key="GridCell.Tab.0.bottom/0.0.1536.834/718.-1050.1920.1050@0.0.1536.834" timestamp="1628957663597" />
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.834/718.-1050.1920.1050@718.-1050.1920.1050" timestamp="1631097856193" />
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1631028658413" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1631097856193">
+      <screen x="718" y="-1050" width="1920" height="1050" />
     </state>
-    <state x="659" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625449516732" />
-    <state x="774" y="161" key="CommitChangelistDialog2" timestamp="1626089744022">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="1493" height="175" key="GridCell.Tab.0.center/0.0.1536.834/718.-1050.1920.1050@0.0.1536.834" timestamp="1628957663597" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.834/718.-1050.1920.1050@718.-1050.1920.1050" timestamp="1631097856193" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1631028658413" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1631097856193">
+      <screen x="718" y="-1050" width="1920" height="1050" />
     </state>
-    <state x="774" y="161" key="CommitChangelistDialog2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626089744022" />
-    <state x="640" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1624853531808" />
-    <state width="447" height="466" key="DebuggerActiveHint" timestamp="1625710322385">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="1493" height="175" key="GridCell.Tab.0.left/0.0.1536.834/718.-1050.1920.1050@0.0.1536.834" timestamp="1628957663597" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.834/718.-1050.1920.1050@718.-1050.1920.1050" timestamp="1631097856193" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1631028658413" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1631097856193">
+      <screen x="718" y="-1050" width="1920" height="1050" />
     </state>
-    <state width="447" height="466" key="DebuggerActiveHint/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625710322385" />
-    <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1626750911854">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="1493" height="175" key="GridCell.Tab.0.right/0.0.1536.834/718.-1050.1920.1050@0.0.1536.834" timestamp="1628957663597" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.834/718.-1050.1920.1050@718.-1050.1920.1050" timestamp="1631097856193" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1631028658413" />
+    <state x="592" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1636419033449">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="706" y="295" key="FileChooserDialogImpl/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626318904581" />
-    <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1857.1080@0.0.1857.1080" timestamp="1625317081405" />
-    <state x="709" y="295" key="FileChooserDialogImpl/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626750911854" />
-    <state width="1815" height="383" key="GridCell.Tab.0.bottom" timestamp="1626831504030">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1807" height="233" key="GridCell.Tab.0.bottom/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626532737941" />
-    <state width="1815" height="383" key="GridCell.Tab.0.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626831504030" />
-    <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624858035290" />
-    <state width="1815" height="383" key="GridCell.Tab.0.center" timestamp="1626831504030">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1807" height="233" key="GridCell.Tab.0.center/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626532737941" />
-    <state width="1815" height="383" key="GridCell.Tab.0.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626831504030" />
-    <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="383" key="GridCell.Tab.0.left" timestamp="1626831504030">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1807" height="233" key="GridCell.Tab.0.left/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626532737940" />
-    <state width="1815" height="383" key="GridCell.Tab.0.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626831504030" />
-    <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="383" key="GridCell.Tab.0.right" timestamp="1626831504030">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1807" height="233" key="GridCell.Tab.0.right/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626532737941" />
-    <state width="1815" height="383" key="GridCell.Tab.0.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626831504030" />
-    <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035289" />
-    <state width="1815" height="341" key="GridCell.Tab.1.bottom" timestamp="1626753126508">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1807" height="291" key="GridCell.Tab.1.bottom/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626324778766" />
-    <state width="1815" height="341" key="GridCell.Tab.1.bottom/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626753126508" />
-    <state width="1493" height="142" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state width="1815" height="341" key="GridCell.Tab.1.center" timestamp="1626753126508">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1807" height="291" key="GridCell.Tab.1.center/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626324778766" />
-    <state width="1815" height="341" key="GridCell.Tab.1.center/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626753126508" />
-    <state width="1493" height="142" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state width="1815" height="341" key="GridCell.Tab.1.left" timestamp="1626753126508">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1807" height="291" key="GridCell.Tab.1.left/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626324778766" />
-    <state width="1815" height="341" key="GridCell.Tab.1.left/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626753126508" />
-    <state width="1493" height="142" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624858035290" />
-    <state width="1815" height="341" key="GridCell.Tab.1.right" timestamp="1626753126508">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1807" height="291" key="GridCell.Tab.1.right/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626324778766" />
-    <state width="1815" height="341" key="GridCell.Tab.1.right/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626753126508" />
-    <state width="1493" height="142" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624858035291" />
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2" timestamp="1626089754045">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="451" y="206" key="Vcs.Push.Dialog.v2/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626089754045" />
-    <state x="373" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1624853554083" />
-    <state x="716" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1626832648103">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="713" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626661614667" />
-    <state x="714" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1483.864/0.0.1854.1080@0.0.1854.1080" timestamp="1626056836001" />
-    <state x="716" y="393" key="com.intellij.ide.util.TipDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626832648103" />
-    <state x="673" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1626318381876">
-      <screen x="0" y="0" width="1850" height="1080" />
-    </state>
-    <state x="673" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1480.864/0.0.1850.1080@0.0.1850.1080" timestamp="1626318381876" />
-    <state x="676" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626072109468" />
-    <state x="559" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1624853189698" />
-    <state x="659" y="304" key="extract.method.dialog" timestamp="1625013881946">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="659" y="304" key="extract.method.dialog/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625013881946" />
-    <state x="605" y="273" width="647" height="534" key="find.popup" timestamp="1625105425925">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="605" y="273" width="647" height="534" key="find.popup/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1625105425925" />
-    <state x="223" y="159" key="new project wizard" timestamp="1625316916833">
-      <screen x="0" y="0" width="1857" height="1080" />
-    </state>
-    <state x="223" y="159" key="new project wizard/-1920.630.1486.864/0.0.1857.1080@0.0.1857.1080" timestamp="1625316916833" />
-    <state x="585" y="250" key="run.anything.popup" timestamp="1626744035744">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="585" y="250" key="run.anything.popup/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626744035744" />
-    <state x="585" y="193" width="672" height="676" key="search.everywhere.popup" timestamp="1626744653328">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="585" y="193" width="672" height="676" key="search.everywhere.popup/-1920.630.1486.864/0.0.1858.1080@0.0.1858.1080" timestamp="1626744653328" />
+    <state x="592" y="303" key="com.intellij.ide.util.TipDialog/0.0.1536.834/0.-1050.1920.1050@0.0.1536.834" timestamp="1636419033449" />
+    <state x="592" y="303" key="com.intellij.ide.util.TipDialog/0.0.1536.834/718.-1050.1920.1050@0.0.1536.834" timestamp="1629251398790" />
+    <state x="592" y="303" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1632468350954" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,11 +690,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/InsertDeleteGetrandomO1Test.java</url>
           <line>15</line>
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/jiang/nowcoder/NC52Test.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethod.java</url>

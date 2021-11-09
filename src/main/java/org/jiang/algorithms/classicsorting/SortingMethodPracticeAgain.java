@@ -184,19 +184,14 @@ public class SortingMethodPracticeAgain {
     //空间复杂度：nlogn
     //不稳定
     public int[] quickSort(int[] arr){
-        if (arr == null || arr.length < 2) {
-            return arr;
-        }
-
-        return exchange(arr, 0, arr.length - 1);
+        return exchange(arr, 0, arr.length-1);
     }
 
     public int[] exchange(int[] arr, int start, int end){
-
-        if (start < end) {
+        if(start < end){
             int mid = partition(arr, start, end);
             exchange(arr, start, mid - 1);
-            exchange(arr, mid + 1, end);
+            exchange(arr, mid + 1,end);
         }
         return arr;
     }
@@ -204,7 +199,7 @@ public class SortingMethodPracticeAgain {
     public int partition(int arr[], int start, int end){
         int pivot = start;
         int index = pivot + 1;
-        for (int i = index; i <= end; i++) {
+        for (int i = start + 1; i <= end; i++) {
             if(arr[i] < arr[pivot]){
                 int temp = arr[i];
                 arr[i] = arr[index];
@@ -213,10 +208,9 @@ public class SortingMethodPracticeAgain {
             }
         }
         int temp = arr[index-1];
-        arr[index - 1] = arr[pivot];
+        arr[index-1] = arr[pivot];
         arr[pivot] = temp;
-
-        return index - 1;
+        return index-1;
     }
 
     //归并排序
