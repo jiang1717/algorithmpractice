@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153efc91-c046-4f6e-bf82-32e054be037a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/graph/AllPathsFromSourceToTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/graph/CourseSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/graph/CourseScheduleII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/writtenexamination/HJ1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/interviewquestion/SplitArrayIntoConsecutiveSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/interviewquestion/SplitArrayIntoConsecutiveSubsequences.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethodPracticeAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethodPracticeAgain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/writtenexamination/HuaWei0306_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/writtenexamination/HuaWei0306_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/writtenexamination/HuaWei0331_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/writtenexamination/HuaWei0331_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jiang/algorithms/writtenexamination/HuaWei0331_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jiang/writtenexamination/HuaWei0331_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/classicsorting/TestSortingMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/jiang/algorithms/classicsorting/TestSortingMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/jiang/nowcoder/NC52Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/jiang/nowcoder/NC52Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/classicsorting/SortingMethodPracticeAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/classicsorting/SortingMethodPracticeAgain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/writtenexamination/HuaWei0306_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/writtenexamination/HuaWei0331_1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/writtenexamination/HuaWei0331_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/writtenexamination/HuaWei0331_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/algorithms/writtenexamination/queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jiang/algorithms/classicsorting/TestSortingMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/jiang/algorithms/classicsorting/TestSortingMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jiang/nowcoder/NC52Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/jiang/nowcoder/NC52Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/algorithmpractice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/writtenexamination/HJ1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/writtenexamination/HuaWei0306_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/writtenexamination/HuaWei0331_1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/writtenexamination/HuaWei0331_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/writtenexamination/HuaWei0331_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/writtenexamination/queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/algorithmpractice.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +103,7 @@
       <recent name="E:\OneDrive\workspace\LearnJava\algorithmpractice\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSortingMethod.testQuickSort">
+  <component name="RunManager" selected="Application.SplitArrayIntoConsecutiveSubsequences">
     <configuration name="AllPathsFromSourceToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.graph.AllPathsFromSourceToTarget" />
       <module name="algorithmpractice" />
@@ -139,6 +130,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SplitArrayIntoConsecutiveSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.interviewquestion.SplitArrayIntoConsecutiveSubsequences" />
+      <module name="algorithmpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.algorithms.interviewquestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NC52Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithmpractice" />
       <extension name="coverage">
@@ -150,22 +154,6 @@
       <option name="PACKAGE_NAME" value="org.jiang.nowcoder" />
       <option name="MAIN_CLASS_NAME" value="org.jiang.nowcoder.NC52Test" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSortingMethod.testHeapSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithmpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.algorithms.classicsorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jiang.algorithms.classicsorting" />
-      <option name="MAIN_CLASS_NAME" value="org.jiang.algorithms.classicsorting.TestSortingMethod" />
-      <option name="METHOD_NAME" value="testHeapSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplitArrayIntoConsecutiveSubsequences" />
         <item itemvalue="JUnit.TestSortingMethod.testQuickSort" />
         <item itemvalue="Application.CourseScheduleII" />
         <item itemvalue="Application.AllPathsFromSourceToTarget" />
         <item itemvalue="JUnit.NC52Test.test" />
-        <item itemvalue="JUnit.TestSortingMethod.testHeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -262,6 +250,7 @@
       <workItem from="1631770812799" duration="1212000" />
       <workItem from="1631945819053" duration="1207000" />
       <workItem from="1632468330931" duration="2656000" />
+      <workItem from="1636419033336" duration="4042000" />
     </task>
     <task id="LOCAL-00001" summary="子序列问题，妹写完">
       <created>1616582685541</created>
@@ -592,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626831645999</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="再次开始">
+      <created>1636419130231</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1636419130231</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="买卖股票的最佳时机" />
     <MESSAGE value="买卖股票的最佳时机II" />
     <MESSAGE value="买卖股票的最佳时机III" />
     <MESSAGE value="买卖股票的最佳时机IV" />
@@ -634,44 +629,61 @@
     <MESSAGE value="滑动窗口算法" />
     <MESSAGE value="二叉树" />
     <MESSAGE value="练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习" />
+    <MESSAGE value="再次开始" />
+    <option name="LAST_COMMIT_MESSAGE" value="再次开始" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="303" y="6" key="CommitChangelistDialog2" timestamp="1636419129168">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="303" y="6" key="CommitChangelistDialog2/0.0.1536.834/0.-1050.1920.1050@0.0.1536.834" timestamp="1636419129168" />
     <state x="586" y="228" key="FileChooserDialogImpl" timestamp="1632621956203">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="1451" y="-763" key="FileChooserDialogImpl/0.0.1536.834/718.-1050.1920.1050@718.-1050.1920.1050" timestamp="1631078083578" />
     <state x="586" y="228" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1632621956203" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1631097856193">
-      <screen x="718" y="-1050" width="1920" height="1050" />
+    <state width="746" height="166" key="GridCell.Tab.0.bottom" timestamp="1636423770396">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="746" height="166" key="GridCell.Tab.0.bottom/0.0.1536.834/0.-1050.1920.1050@0.0.1536.834" timestamp="1636423770396" />
     <state width="1493" height="175" key="GridCell.Tab.0.bottom/0.0.1536.834/718.-1050.1920.1050@0.0.1536.834" timestamp="1628957663597" />
     <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.834/718.-1050.1920.1050@718.-1050.1920.1050" timestamp="1631097856193" />
     <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1631028658413" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1631097856193">
-      <screen x="718" y="-1050" width="1920" height="1050" />
+    <state width="746" height="166" key="GridCell.Tab.0.center" timestamp="1636423770396">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="746" height="166" key="GridCell.Tab.0.center/0.0.1536.834/0.-1050.1920.1050@0.0.1536.834" timestamp="1636423770396" />
     <state width="1493" height="175" key="GridCell.Tab.0.center/0.0.1536.834/718.-1050.1920.1050@0.0.1536.834" timestamp="1628957663597" />
     <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.834/718.-1050.1920.1050@718.-1050.1920.1050" timestamp="1631097856193" />
     <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1631028658413" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1631097856193">
-      <screen x="718" y="-1050" width="1920" height="1050" />
+    <state width="746" height="166" key="GridCell.Tab.0.left" timestamp="1636423770396">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="746" height="166" key="GridCell.Tab.0.left/0.0.1536.834/0.-1050.1920.1050@0.0.1536.834" timestamp="1636423770396" />
     <state width="1493" height="175" key="GridCell.Tab.0.left/0.0.1536.834/718.-1050.1920.1050@0.0.1536.834" timestamp="1628957663597" />
     <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.834/718.-1050.1920.1050@718.-1050.1920.1050" timestamp="1631097856193" />
     <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1631028658413" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1631097856193">
-      <screen x="718" y="-1050" width="1920" height="1050" />
+    <state width="746" height="166" key="GridCell.Tab.0.right" timestamp="1636423770396">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="746" height="166" key="GridCell.Tab.0.right/0.0.1536.834/0.-1050.1920.1050@0.0.1536.834" timestamp="1636423770396" />
     <state width="1493" height="175" key="GridCell.Tab.0.right/0.0.1536.834/718.-1050.1920.1050@0.0.1536.834" timestamp="1628957663597" />
     <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.834/718.-1050.1920.1050@718.-1050.1920.1050" timestamp="1631097856193" />
     <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1631028658413" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1636419165626">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/0.-1050.1920.1050@0.0.1536.834" timestamp="1636419165626" />
     <state x="592" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1636419033449">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="592" y="303" key="com.intellij.ide.util.TipDialog/0.0.1536.834/0.-1050.1920.1050@0.0.1536.834" timestamp="1636419033449" />
     <state x="592" y="303" key="com.intellij.ide.util.TipDialog/0.0.1536.834/718.-1050.1920.1050@0.0.1536.834" timestamp="1629251398790" />
     <state x="592" y="303" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1632468350954" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1636423056612">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/0.-1050.1920.1050@0.0.1536.834" timestamp="1636423056612" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -690,11 +702,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/jiang/algorithms/array/InsertDeleteGetrandomO1Test.java</url>
           <line>15</line>
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/jiang/algorithms/classicsorting/SortingMethod.java</url>
-          <line>346</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
